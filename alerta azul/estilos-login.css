@@ -1,0 +1,53 @@
+*{
+}
+
+body{
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login{
+    background: #006eff;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    color: #fff;
+}
+main{
+    padding: 20px;
+}
+.enlace{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.boton-enlaces{
+    font-size: 20px;
+    border-radius:10px;
+    background: #fff;
+    border: solid 2px #006eff;
+    color: #006eff;
+    padding: 5px;
+    transition: all 1s;
+
+}
+.boton-enlaces:hover{
+    background: #006eff;
+    color: #fff;
+    transition: all 1s;
+}
+.inicio-sesion{
+    font-size: 20px;
+    border-radius:10px;
+    background: #006eff;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    padding: 5px;
+    transition: all 1s;
+
+}
+.inicio-sesion:hover{
+    background: #ffffff;
+    color: #006eff;
+    transition: all 1s;
+}
+

@@ -1,0 +1,119 @@
+*{
+
+}
+body{
+    background: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boton-enlaces{
+    font-size: 20px;
+    border-radius:10px;
+    background: #fff;
+    border: solid 2px #006eff;
+    color: #006eff;
+    padding: 5px;
+    transition: all 1s;
+    margin: 10px;
+
+}
+.boton-enlaces:hover{
+    background: #006eff;
+    color: #fff;
+    transition: all 1s;
+}
+.uno{
+    font-weight: 600;
+    background-color: #296dc598;
+}
+table{
+  
+    position: relative;
+    border: rgb(0, 0, 0) 2px solid;
+    border-collapse:collapse;
+    left: 8%;
+}
+td{
+    border: rgb(0, 0, 0) 2px solid;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 10px;
+    position: relative;
+
+}
+.arr{
+    background-color: #4470aab2;
+}
+.fon{
+    background-color: rgba(148, 142, 142, 0.685);
+    color: rgba(185, 177, 177, 0.685);
+
+
+}
+
+/* Boton emergencia */
+.css-button-gradient--4 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
+  }
+  .css-button-gradient--4:hover {
+    background-position: right center;
+  }
+  .css-button-gradient--4:active {
+    top: 2px;
+  }
+/* Fin boton emergencia */
+/* Botton urgencia */
+.css-button-shadow-border-sliding--sky {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #653aff;
+   z-index: 1;
+  }
+  .css-button-shadow-border-sliding--sky:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .css-button-shadow-border-sliding--sky:after {
+    border-radius: 8px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #ff3333;
+    right: 0;
+  }
+  .css-button-shadow-border-sliding--sky:active {
+    top: 2px;
+  }
+/* Fin boton urgencia */
+.enlace{
+  padding-left: 5px;
+  padding-top: 5px;
+}
