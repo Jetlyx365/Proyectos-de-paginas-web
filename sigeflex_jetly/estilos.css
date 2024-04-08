@@ -1,0 +1,141 @@
+/* Estilos para el cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 90vh; /* Altura del cuerpo en relación con la ventana */
+}
+
+/* Estilos para el formulario principal */
+.form_main {
+    text-align: left; /* Alineación del texto */
+    width: 220px; /* Ancho del formulario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255); /* Color de fondo */
+    padding: 30px 30px 30px 30px; /* Relleno */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062); /* Sombra */
+    position: relative; /* Posición relativa para elementos absolutos dentro */
+    overflow: hidden; /* Ocultar contenido que se desborda */
+}
+
+/* Estilos para el contenedor del formulario */
+.formContainer {
+    width: 300px; /* Ancho del contenedor del formulario */
+    padding: 20px; /* Relleno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 10px; /* Borde redondeado */
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilos para el fondo decorativo */
+.form_main::before {
+    position: absolute; /* Posición absoluta con respecto al formulario principal */
+    content: "";
+    width: 300px;
+    height: 300px;
+    background-color: rgb(209, 193, 255); /* Color de fondo */
+    transform: rotate(45deg); /* Rotación */
+    left: -180px; /* Posición izquierda */
+    bottom: 30px; /* Posición inferior */
+    z-index: 1; /* Z-index para estar detrás del contenido */
+    border-radius: 30px; /* Borde redondeado */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082); /* Sombra */
+}
+
+/* Estilos para el encabezado */
+.heading {
+    font-size: 2em; /* Tamaño de fuente */
+    color: #2e2e2e; /* Color del texto */
+    font-weight: 700; /* Grosor del texto */
+    margin: 5px 0 10px 0; /* Márgenes */
+    z-index: 2; /* Z-index para estar delante del fondo */
+}
+
+/* Estilos para los contenedores de entrada y sus iconos */
+.inputContainer {
+    margin-bottom: 10px; /* Márgenes */
+    width: 100%; /* Ancho completo */
+    position: relative; /* Posición relativa para el icono */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; /* Z-index para estar delante del fondo */
+}
+
+/* Estilos para los iconos en las entradas */
+.inputIcon {
+    position: absolute; /* Posición absoluta con respecto al contenedor */
+    left: 3px; /* Posición izquierda */
+    vertical-align: middle; /* Alineación vertical */
+}
+
+/* Estilos para las entradas de texto */
+.inputField {
+    width: 100%; /* Ancho completo */
+    height: 30px; /* Altura */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    border-bottom: 2px solid rgb(173, 173, 173); /* Borde inferior */
+    margin: 10px 0; /* Márgenes */
+    color: black; /* Color del texto */
+    font-size: .8em; /* Tamaño de fuente */
+    font-weight: 500; /* Grosor del texto */
+    box-sizing: border-box; /* Incluye el borde en el tamaño */
+    padding-left: 30px; /* Espacio para el icono */
+    vertical-align: middle; /* Alineación vertical */
+}
+
+/* Estilos al enfocar las entradas de texto */
+.inputField:focus {
+    outline: none; /* Sin contorno al enfocar */
+    border-bottom: 2px solid rgb(199, 114, 255); /* Borde inferior enfocado */
+}
+
+/* Estilos para el texto de marcador de posición en las entradas */
+.inputField::placeholder {
+    color: rgb(80, 80, 80); /* Color del marcador de posición */
+    font-size: 1em; /* Tamaño de fuente */
+    font-weight: 500; /* Grosor del texto */
+}
+
+/* Estilos para el botón de envío */
+#button {
+    z-index: 2; /* Z-index para estar delante del fondo */
+    position: relative; /* Posición relativa */
+    width: 100%; /* Ancho completo */
+    border: none; /* Sin borde */
+    background-color: rgb(162, 104, 255); /* Color de fondo */
+    height: 30px; /* Altura */
+    color: white; /* Color del texto */
+    font-size: .8em; /* Tamaño de fuente */
+    font-weight: 500; /* Grosor del texto */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    margin: 10px; /* Márgenes */
+    cursor: pointer; /* Cursor al pasar */
+}
+
+/* Estilos al pasar sobre el botón */
+#button:hover {
+    background-color: rgb(126, 84, 255); /* Color de fondo al pasar */
+}
+
+/* Estilos para el enlace de "Olvidó su contraseña" */
+.forgotLink {
+    z-index: 2; /* Z-index para estar delante del fondo */
+    font-size: .7em; /* Tamaño de fuente */
+    font-weight: 500; /* Grosor del texto */
+    color: rgb(44, 24, 128); /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 8px 15px; /* Relleno */
+    border-radius: 20px; /* Borde redondeado */
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 376px) {
+    body {
+        margin-top: 4rem; /* Margen superior para desplazarse hacia abajo en pantallas pequeñas */
+    }
+}
