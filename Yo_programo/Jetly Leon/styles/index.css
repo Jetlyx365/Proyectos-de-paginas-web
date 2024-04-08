@@ -1,0 +1,23 @@
+body {
+    background-color: #ffe6cc; /* Color de fondo para la temática de repostería */
+}
+
+.navbar {
+    background-color: #8b4513; /* Color de fondo de la barra de navegación, marrón oscuro */
+}
+
+.jumbotron {
+    background-color: #ffe6cc; /* Color de fondo del jumbotron, beige claro */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body p {
+    display: none; /* Inicialmente, oculta el texto debajo de las imágenes */
+}
+.comenta{
+    margin-bottom: 5%;
+    position: relative;
+}

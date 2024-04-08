@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Repostería Deliciosa</title>
+    <!-- Enlace al archivo CSS de Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Barra de navegación con menú desplegable -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="navbar-brand"><img src="img/logo.png" alt="Logo de Repostería" height="60px"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              Menú <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="links/mis_datos.html">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="links/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron con mensaje de bienvenida -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">¡Bienvenido a nuestra Repostería Deliciosa!</h1>
+        <p class="lead">Descubre nuestros sabrosos postres y disfruta de momentos dulces.</p>
+    </div>
+
+    <!-- Productos -->
+    <div class="container" id="productos">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <div class="jumbotron text-center">
+        <p class="lead">Apretar 2 veces las imagenes para ver mas informacion</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" onclick="toggleText(this)">
+                    <img src="img/calletas.jpg" class="card-img-top" alt="Galletas">
+                    <div class="card-body">
+                        <h5 class="card-title">Galletas con Chispas</h5>
+                        <p class="card-text">Deliciosas galletas con chispas de chocolate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" onclick="toggleText(this)">
+                    <img src="img/torta.jpg" class="card-img-top" alt="Torta de chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title">Torta de Chocolate</h5>
+                        <p class="card-text">Irresistible torta de chocolate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" onclick="toggleText(this)">
+                    <img src="img/budin.jpg" class="card-img-top" alt="Budin">
+                    <div class="card-body">
+                        <h5 class="card-title">Budin</h5>
+                        <p class="card-text">Los mejores budines de chocolate, vainilla y limón.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="container" id="contacto">
+        <h2 class="text-center mb-4">Comentarios</h2>
+        <p class="text-center">¡Estamos aquí para ayudarte! Comenta lo que quieras.</p>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary comenta">Enviar Comentario</button>
+        </form>
+    </div>
+
+    <!-- Enlaces a los archivos JavaScript de Bootstrap 5.3 y Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
