@@ -1,0 +1,100 @@
+body{
+    position: relative;
+    margin-top: 1.5%;
+    margin-bottom: 5%;
+    font-family: monospace;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px;
+}
+table{
+    border: 1px solid black;
+    padding: 25px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 2%;
+    height: 20%;
+    font-size: 15px;
+
+}
+th{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    background: rgb(115 211 77);
+    width: 15%;
+}
+td{
+  font-size: 18px;
+}
+#elim{
+  background-color: rgba(241, 10, 10, 0.836);
+}
+#edit{
+  background-color: rgba(92, 89, 238, 0.712);
+}
+#edit_but{
+  background-color: rgba(92, 89, 238, 0.712);
+  border: none;
+  border-radius: 10%;
+  padding: 7%;
+  color: white;
+  font-size: 15px;
+}
+#elim_but{
+  background-color: rgba(241, 10, 10, 0.836);
+  border: none;
+  border-radius: 10%;
+  padding: 10%;
+  color: white;
+  font-size: 15px;
+}
+/* Crear_boton */
+#crear{
+  position: relative;
+}
+.crear_boton {
+  
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  z-index: 0;
+}
+.crear_boton:hover:after {
+  top: 0;
+  left: 0;
+}
+.crear_boton:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: rgba(241, 241, 10, 0.836);
+}
+#no_datos{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5%;
+  font-weight: bold;
+}
+#conteiner{
+  position: relative;
+   width: fit-content;
+   margin: 0 auto;
+}

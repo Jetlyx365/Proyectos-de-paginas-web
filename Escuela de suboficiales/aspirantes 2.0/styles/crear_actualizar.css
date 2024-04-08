@@ -1,0 +1,132 @@
+body{
+  position: relative;
+  margin-top: 3%;
+  font-family: monospace;
+  background-color: rgb(215, 232, 247);
+}
+.file-select {
+  position: relative;
+  display: inline-block;
+  top: -13px;
+}
+
+.file-select::before {
+  background-color: #5678EF;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  content: 'Seleccionar'; /* texto por defecto */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 22px;
+}
+
+.file-select input[type="file"] {
+  opacity: 0;
+  width: 100px;
+  height: 33px;
+  display: inline-block;
+}
+
+#nom_foto::before {
+  content: 'Foto';
+}
+
+/* Fondo verde cuando se selecciona una foto */
+#nom_foto.file-selected::before {
+  background-color: green;
+  content: 'Subido';
+}
+input:placeholder-shown{
+  background-color: #5678EF;
+  }
+.file-select, input{
+  background-color: green;
+  color: white;
+  width: 22%;
+  margin-left: 3%;
+  height: 60px;
+  border: none;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 20px;
+}
+input:focus{
+  background-color: #5678EF;
+}
+#envi{
+  font-size: 130%;
+  background-color: rgb(255, 255, 0);
+  color: black;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+}
+#envi:hover{
+  background-color: rgba(241, 241, 10, 0.678);
+
+}
+::placeholder{
+  color: white;
+  text-align: center;
+  font-size: 110%;
+}
+#conteiner{
+    text-align: center;
+    position: relative;
+    border: 10px double black;
+    width: 48%;
+    height: 39%;
+    margin: 0 auto;
+    padding-right: 1%;
+    padding-left: -3px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(161 155 155 / 26%);
+}
+
+h1{
+  text-align: center;
+}
+#volver{
+  bottom: 80px;
+  left: 2%;
+  position: relative;
+  
+}
+
+/*Boton retoceso*/
+.retro {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #c74343;
+}
+.retro:hover {
+  background-color: #ed8080;
+}
+.retro:active {
+  top: 2px;
+}
+/*Fin boton*/
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px;
+}

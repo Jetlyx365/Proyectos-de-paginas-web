@@ -1,0 +1,211 @@
+body{
+    position: relative;
+    margin-bottom: 5%;
+    font-family: monospace;
+    background-color: rgb(215, 232, 247);
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px;
+}
+table{
+    border: 1px solid black;
+    padding: 25px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 2%;
+    height: 20%;
+    font-size: 15px;
+
+}
+th{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    background: rgb(115 211 77);
+    width: 15%;
+}
+td{
+  font-size: 18px;
+}
+#elim{
+  background-color: rgba(241, 10, 10, 0.836);
+}
+#edit{
+  background-color: rgba(92, 89, 238, 0.712);
+}
+#edit_but{
+  background-color: rgba(92, 89, 238, 0.712);
+  border: none;
+  border-radius: 10%;
+  padding: 7%;
+  color: white;
+  font-size: 15px;
+}
+#elim_but{
+  background-color: rgba(241, 10, 10, 0.836);
+  border: none;
+  border-radius: 10%;
+  padding: 10%;
+  color: white;
+  font-size: 15px;
+}
+/* Crear_boton */
+#botones{
+  display: flex;
+  justify-content: space-between;
+}
+.crear_boton {
+  
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  z-index: 0;
+}
+.crear_boton:hover:after {
+  top: 0;
+  left: 0;
+}
+.crear_boton:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: rgba(241, 241, 10, 0.836);
+}
+#no_datos{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5%;
+  font-weight: bold;
+}
+#conteiner{
+  position: relative;
+   width: fit-content;
+   margin: 0 auto;
+}
+
+.cerrar_boton {
+  padding-left: 100%;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  z-index: 0;
+}
+.cerrar_boton:hover:after {
+  top: 0;
+  left: 0;
+}
+.cerrar_boton:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: -5px;
+  transition: 0.2s;
+  background-color: rgba(228, 66, 66, 0.836);}
+#busque{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+}
+#filtro{
+  border: 2px solid black; 
+  padding: 5px;
+  width: 14%;
+  background-color: rgb(215, 232, 247);
+}
+td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: rgb(161 155 155 / 26%);
+}
+img{
+  max-width: 100px; 
+  max-height: 100px;
+  border-radius: 30%;
+}
+#pagination {
+   margin-top: 10px;
+}
+
+#pagination a {
+   display: inline-block;
+   padding: 5px 10px;
+   margin-right: 5px;
+   border: 1px solid #ccc;
+   text-decoration: none;
+   color: #333;
+   background-color: #f9f9f9;
+}
+
+#pagination a.active {
+   background-color: #333;
+   color: #fff;
+}
+
+#boton_visuali {
+  display: flex;
+  justify-content: end;
+}
+#usuario{
+  top: -60px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+
+/*Boton crear nuevo admin*/
+.usuario {
+  min-width: 130px;
+  height: 40px;
+  color: #000000;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background-color: rgba(10, 137, 241, 0.836);
+}
+.usuario:hover {
+  background-color: rgba(59, 211, 231, 0.678);
+}
+.usuario:active {
+  top: 2px;
+}
+/*Fin crear usuario*/
