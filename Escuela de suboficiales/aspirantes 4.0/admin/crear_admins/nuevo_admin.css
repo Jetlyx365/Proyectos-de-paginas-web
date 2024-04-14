@@ -1,0 +1,160 @@
+body {
+    background-color: #c7c7c780;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+.view-container {
+    width: 80%;
+    max-width: 400px;
+    top: 4%;
+    background: #e7e7e7; /* Fondo Principal */
+    color: #333333; /* Texto Principal */
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px 30px 0px;
+    border-radius: 1.5rem; /* Bordes más suaves */
+    box-shadow: 0 0 20px rgb(0 0 0 / 55%);
+    margin: 0 auto;
+}
+
+.view-container h1 {
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 1.8em;
+    color: #4a90e2; /* Nuevo color de título */
+}
+
+.view-container button {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #4a90e2; /* Nuevo color de fondo de botones */
+    color: #ffffff; /* Nuevo color de texto de botones */
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.view-container button:hover {
+    background: #357dbf; /* Nuevo color de fondo de botones al pasar el ratón */
+}
+
+.view-container a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #4a90e2; /* Nuevo color del texto del enlace */
+}
+
+.view-container a:hover {
+    color: #357dbf; /* Nuevo color del texto del enlace al pasar el ratón */
+}
+
+.texto {
+    color: #666666; /* Nuevo color del texto secundario */
+    text-align: center;
+    position: relative;
+    top: 4%;
+}
+
+input {
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #cccccc; /* Nuevo color del borde inferior de los inputs */
+    background: transparent;
+    outline: none;
+    display: block;
+    height: 40px;
+    color: #333333; /* Color del Texto de los Inputs */
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+select {
+    font-size: 16px;
+    border: 2px solid #4a90e2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #e7e7e7; /* Nuevo color de fondo */
+    color: #333333; /* Cambiado a un tono de gris más oscuro */
+    margin-bottom: 16px;
+}
+
+.retro {
+    min-width: 130px;
+    height: 50px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Transición más suave al cambiar el color de fondo */
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(to right, #ffd700, #ff8c00, #ff6347); /* Degradado de amarillo a naranja a rojo */
+    margin-top: 30px;
+    animation: pulse 1.5s infinite alternate; /* Mantenemos la misma animación */
+}
+
+.retro:hover {
+    background: linear-gradient(to right, #ff6347, #ff8c00, #ffd700); /* Invertimos el degradado al pasar el ratón */
+}
+
+.retro:active {
+    top: 2px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+
+.exito {
+    position: absolute;
+    width: 30%;
+    padding: 12px;
+    background-color: #32cd32; /* Nuevo color de fondo de alertas */
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 90%;
+}
+.error {
+    position: absolute;
+    width: 30%;
+    padding: 12px;
+    background-color: #cc0000 ; /* Nuevo color de fondo de alertas */
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 88%;
+}
+
+.avatar {
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: calc(50% - 50px);
+}
+#volver{
+    position: relative;
+    bottom: 4%;
+}

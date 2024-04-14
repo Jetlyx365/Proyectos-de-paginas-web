@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cbcbcb;
+}
+.retro {
+  min-width: 120px;
+  height: 40px;
+  color: #fff;
+  padding: 8px 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ff6347 0%, #ff4500 100%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.retro:hover {
+  background: linear-gradient(90deg, #ff4500 0%, #ff6347 100%);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.retro:active {
+  transform: translateY(2px);
+}
+
+#conteiner {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #e1e1e1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#imageForm {
+  text-align: center;
+}
+
+.file-select {
+  position: relative; 
+  width: 30%; 
+  margin: 0 auto; 
+}
+
+
+.file-select input[type="file"] {
+  opacity: 0; /* Cambio: Ocultar el input tipo file */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.file-select::before {
+  content: 'Seleccionar Foto';
+  display: block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #597d80;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-select:hover::before {
+  background-color: #809c9e;
+}
+
+.file-select.file-selected::before {
+  background-color: #27932be3;
+  content: 'Foto Seleccionada';
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="submit"]{
+  width: calc(50% - 10px);
+  margin: 8px;
+  padding: 10px;
+  border: 1px solid #a3a3a3;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+input:focus{
+  border: 1px solid #a3a3a3;
+  outline: none;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2E8B57;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+input[type="submit"],
+.retro,
+.file-select::before {
+  cursor: pointer;
+}

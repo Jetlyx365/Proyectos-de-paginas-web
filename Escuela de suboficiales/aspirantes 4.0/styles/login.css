@@ -1,0 +1,73 @@
+/* Estilos CSS */
+body {
+    background-color: #1a1945; /* Gris claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4%;
+}
+
+.view-container {
+    width: 80%;
+    max-width: 400px;
+    background: #00000094; /* Azul claro */
+    color: #ffffff; /* Texto Principal */
+    position: relative;
+    box-sizing: border-box;
+    padding: 26px 30px 3px;
+    border-radius: 1.5rem; /* Bordes más suaves */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 0 auto;
+}
+
+.view-container h1 {
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 1.8em;
+    color: #18af41; /* Verde esmeralda */
+}
+
+.texto {
+    color: #dbdbdb; /* Tono de gris más suave */
+    text-align: center;
+    position: relative;
+    top: 23px;
+}
+
+input {
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #777777; /* Tono de gris más oscuro */
+    background: transparent;
+    outline: none;
+    display: block;
+    height: 40px;
+    color: #ffffff; /* Color del Texto de los Inputs */
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #3498db; /* Azul claro */
+    color: #ffffff; /* Texto en color blanco */
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #2980b9; /* Azul más oscuro al pasar el ratón */
+}
+
+.avatar {
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: calc(50% - 50px);
+}

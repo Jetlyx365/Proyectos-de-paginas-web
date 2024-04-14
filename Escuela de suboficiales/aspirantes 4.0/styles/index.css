@@ -1,0 +1,163 @@
+body {
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: -1%;
+  font-family: monospace;
+  background-color: #dddddd; /* Color de fondo para la página completa */
+}
+
+/* Estilo para la tabla */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+/* Estilo para las celdas de encabezado */
+th {
+  background-color: #4CAF50;
+  color: #f1efef;
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #858585;
+}
+tr{
+  font-size: 16px;
+}
+/* Estilo para las celdas de datos */
+td {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #858585;
+}
+#boton_visuali{
+  display: block;
+  margin-left: 80%;
+
+}
+/* Estilo para fila de eliminación */
+#elim {
+  background-color: #f44336;
+  color: #f1efef;
+}
+
+/* Estilo para fila de edición */
+#edit {
+  background-color: #2196F3;
+  color: #f1efef;
+}
+
+/* Estilo para botón de editar */
+#edit_but {
+  background-color: #2196F3;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* Estilo para botón de eliminar */
+#elim_but {
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* Estilo para la barra de búsqueda */
+#busque {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#filtro {
+  border: 2px solid black;
+  padding: 10px;
+  width: 50%;
+  max-width: 300px;
+  background-color: #dddddd; /* Cambiar el color de fondo si lo deseas */
+  font-size: 16px;
+  outline: none;
+}
+
+#filtro::placeholder {
+  color: #999; /* Color del texto de marcador de posición */
+}
+
+/* Estilo para los botones de crear y cerrar sesión */
+#botones {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}/* Estilos para los botones */
+.boton {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Espacio entre los botones */
+}
+
+/* Estilo para el botón de "Crear" */
+#crear_boton {
+  background-color: #389b45; /* Verde */
+}
+
+/* Estilo para el botón de "Crear Admin" */
+#crear_admin_boton {
+  background-color: #009688; /* Naranja */
+}
+
+/* Estilo para el botón de "Cerrar Sesión" */
+#cerrar_sesion_boton {
+  background-color: #f44336; /* Rojo */
+}
+
+/* Aplicar la animación de hover a todos los botones */
+.boton:hover {
+  transform: scale(1.05); /* Escalar el botón al pasar el mouse */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Agregar una sombra al pasar el mouse */
+}
+
+img{
+  max-width: 100px; 
+  max-height: 100px;
+  border-radius: 30%;
+}
+/* Estilo para la paginación */
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pagination a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+#pagination a.active {
+  background-color: rgb(51, 51, 51);
+  color: #fff;
+}
