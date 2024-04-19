@@ -1,0 +1,202 @@
+/*Fondo*/
+body{background-color:7189FF;}
+/*Amacenamiento*/
+.box{
+    width: 1000px;
+    height: 3800px;
+    background: #F9CB40;
+    text-align: center;
+    line-height: 50px;
+    
+    position: absolute;
+    top: 80px;
+    left: 110;
+    transition: opacity 500ms;
+     -webkit-transition: opacity 500ms; /* Safari */;
+    opacity:0;
+  }
+#button{
+    width: 160px;
+    height:50px;
+   
+    
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    left: 110;
+  }
+  .bt{
+     width: 160px;
+    height:50px;
+    background:#7FDEFF;
+    
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    left: 110;
+  }
+  #button:focus ~ .box{
+    opacity:1;
+  }
+  #button:focus ~ .bt{
+    display: block;
+  }
+/*Volver arriba*/
+a{
+    font-size: 40px;
+    color: #db3434;
+}
+/*Entrada*/
+.c{
+    width: 1000px;
+    height: 3500px;
+    background: #F9CB40;
+    text-align: center;
+    line-height: 80px;
+    
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    transition: opacity 500ms;
+     -webkit-transition: opacity 500ms; /* Safari */;
+    opacity:0;
+  }
+  .but{
+    width: 160px;
+    height:50px;
+   
+    
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    left: 460px;
+  }
+  .bot{
+     width: 160px;
+    height:50px;
+    background:#7FDEFF;
+    
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    left: 460px;
+  }
+  .but:focus ~ .c{
+    opacity:1;
+  }
+  .but:focus ~ .bot{
+    display: block;
+  }
+  /*salida*/
+.a{
+    width: 1000px;
+    height: 3400px;
+    background: #F9CB40;
+    text-align: center;
+    line-height: 50px;
+    
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    transition: opacity 500ms;
+     -webkit-transition: opacity 500ms; /* Safari */;
+    opacity:0;
+  }
+  .q{
+    width: 160px;
+    height:50px;
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    left: 830px;
+  }
+  .w{
+     width: 160px;
+    height:50px;
+    background:#7FDEFF;
+    
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    left: 830px;
+  }
+  .q:focus ~ .a{
+    opacity:1;
+  }
+  .q:focus ~ .w{
+    display: block;
+  }
+  /*Entrada/Salida*/
+  .j{
+    width: 1000px;
+    height: 1300px;
+    background: #F9CB40;
+    text-align: center;
+    line-height: 50px;
+    
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    transition: opacity 500ms;
+     -webkit-transition: opacity 500ms; /* Safari */;
+    opacity:0;
+  }
+  .p{
+    width: 160px;
+    height:50px;
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    left: 1200px;
+  }
+  .l{
+     width: 160px;
+    height:50px;
+    background:#7FDEFF;
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    left: 1200px;
+  }
+  .p:focus ~ .j{
+    opacity:1;
+  }
+  .p:focus ~ .l{
+    display: block;
+  }
+/*Botones*/
+  button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    font-family: Verdana;
+  }
+  button:hover:after {
+    top: 0;
+    left: 0;
+  }
+  button:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #ed8080;
+  }

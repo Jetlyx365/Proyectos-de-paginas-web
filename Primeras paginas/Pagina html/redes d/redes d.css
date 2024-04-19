@@ -1,0 +1,17 @@
+body{background-color: #6DD6DA;}
+font{
+    font-size: 25px;
+}
+#cubo{
+    border: 5px solid black;
+    width: 740px;
+    height: 130px;
+    border-radius: 15px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+#h3{
+    background-color: #f516169f;
+    width: 600px;
+}
