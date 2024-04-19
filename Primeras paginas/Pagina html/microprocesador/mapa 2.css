@@ -1,0 +1,44 @@
+body{background-color: #379fd6cc}
+a:visited, a{color: #000000;}
+h2{font-size: 30px;}
+img{
+    border: 5px dashed #8223ef ;
+    border-radius: 55px;
+    background-color: #4CB944;
+}
+h1{
+    text-shadow: 9px 9px 2px #875988;
+    font-size: 200%;
+    color: #FFA9E7;
+}
+font{font-size: 150%;}
+button {
+    min-width: 130px;
+    height: 45px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+  }
+  button:hover:after {
+    top: 0;
+    left: 0;
+  }
+  button:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #ff0000ad;
+  }

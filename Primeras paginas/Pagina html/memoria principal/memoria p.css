@@ -1,0 +1,108 @@
+    body{background-color: #ADD2C2;}
+    /*RAM*/
+    .box{
+        width: 1000px;
+        height: 308px;
+        background: #F9CB40;
+        text-align: center;
+        line-height: 20px;
+        
+        position: absolute;
+        left: 350px;
+        transition: opacity 500ms;
+         -webkit-transition: opacity 500ms; /* Safari */;
+        opacity:0;
+      }
+    #button{
+        font-family: Verdana;
+        cursor: pointer;
+        position: absolute;
+        left: 10;
+      }
+      .bt{
+        background:#7FDEFF;
+        
+        font-family: Verdana;
+        cursor: pointer;
+        position: absolute;
+        display: none;
+        left: 10;
+      }
+      #button:focus ~ .box{
+        opacity:1;
+      }
+      #button:focus ~ .bt{
+        display: block;
+      }
+      /*ROM*/
+      .c{
+        width: 1000px;
+        height: 308px;
+        background: #F9CB40;
+        text-align: center;
+        line-height: 20px;
+        
+        position: absolute;
+        left: 350px;
+        top: 500px;
+        transition: opacity 500ms;
+         -webkit-transition: opacity 500ms; /* Safari */;
+        opacity:0;
+      }
+    #a{
+        font-family: Verdana;
+        cursor: pointer;
+        position: absolute;
+        left: 10;
+        top: 500px;
+      }
+      .b{
+        background:rgba(255, 0, 0, 0.726);
+        top: 500px;
+        font-family: Verdana;
+        cursor: pointer;
+        position: absolute;
+        display: none;
+        left: 10;
+      }
+      #a:focus ~ .c{
+        opacity:1;
+      }
+      #a:focus ~ .b{
+        display: block;
+      }
+      /*Botones*/
+      button {
+        
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border: 5px dashed #000;
+        color: #000;
+        background: transparent;
+        font-family: Verdana;
+      }
+      button:hover:after {
+        top: 0;
+        left: 0;
+      }
+      button:after {
+        content: "";
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        height: 100%;
+        top: 10px;
+        left: 10px;
+        transition: 0.2s;
+        background-color: #b6b3b3b4;
+      }
+      font, h1{ font-size: 30px;}
+      #RAM{color: blue}
+      #ROM{color: red}
+      #tama{font-size: 20px;}
