@@ -1,0 +1,213 @@
+body{background-color: black;}
+font, a{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    display: block; 
+    margin: auto;
+}
+@keyframes anim{
+    0% {color: rgb(255, 38, 0);} 
+   25% {color: rgb(0, 174, 255);} 
+   50% {color: rgb(15, 226, 33);} 
+   75% {color: rgb(255, 0, 0);} 
+  100% {color: rgb(0, 225, 255);} 
+}
+#tama{
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+    font-size: 100px; 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+@keyframes color{
+    0% {color: rgb(255, 38, 0);} 
+   25% {color: rgb(0, 174, 255);} 
+   50% {color: rgb(15, 226, 33);} 
+   75% {color: rgb(255, 0, 0);} 
+  100% {color: rgb(0, 225, 255);} 
+
+  0% {border-color: rgb(0, 174, 255);} 
+   25% {border-color: rgb(15, 226, 33);} 
+   50% {border-color: rgb(255, 38, 0);} 
+   75% {border-color: rgb(0, 174, 255);} 
+  100% {border-color: rgb(15, 226, 33);} 
+}
+#color{
+    animation-name: color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:rgba(248, 94, 222, 0.356);
+    border-color: #d8d8d8;
+    border-style: solid;
+    border-radius: 35px;
+}
+#correcto{font-size: 100px;}
+#body{
+  background-image: url("index logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 30px;
+}
+#a{
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 20px;
+  color:#ffffff;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#000000;
+  border-color: #d8d8d8;
+  border-style: solid;
+  border-radius: 35px;
+}
+
+#e{background-color: rgba(223, 15, 15, 0.445);}
+
+#ganaste{
+  background-image: url("ganaste.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gan{
+  text-shadow: 10px 0 rgb(0, 0, 0), 10px 0 rgb(0, 0, 0), 0 10px rgb(0, 0, 0), 0 10px rgb(0, 0, 0);
+   color: #fff;
+  font-size: 150px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#fonfen{
+  background-image: url("https://img.freepik.com/vector-premium/dia-elecciones-mujeres-jovenes-papeletas-caja-carton-votando-ilustracion-vectorial_24640-67904.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#teslafon{
+  background-image: url("teslafon.jpg");
+  background-size: cover;
+  background-color: #00000098;
+}
+#pelicula{
+  background-image: url("huye.jpg");
+  background-position: center;
+  background-size: 1500px;
+}
+#argen{
+  background-image: url("argentina.gif");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: right;
+  background-position-y: 90%;
+  background-position-x: 98%;  
+}
+#argentina{
+  background-image: url("argentina.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: left;
+  background-position-x: 80px;
+  background-position-y: 60px;
+}
+#oscar{
+  background-image: url("oscar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fondoar{
+  background-image: url("fondo argentina.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#cienpi{
+  background-image: url("cien pies.png");
+  background-repeat: no-repeat;
+  background-position-y: 220px;
+}
+#cienp{
+  background-image: url("cien pies 2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
+  background-position-y: 90px;
+}
+#tiempo{
+  background-image: url("tiempo.png");
+  background-repeat: no-repeat;
+}
+#fonreloj{
+  background-image: url("fondo reloj.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+#messi{
+  background-image: url("mesi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gameover{
+  background-image: url("game over fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+#fondo{
+  background-image: url("bien echo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 90px;
+}
+#fond{
+  background-image: url("bien echo 2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
+}
+@keyframes inc{
+  0% {color: rgb(106, 179, 11);} 
+ 25% {color: rgb(255, 145, 0);} 
+ 50% {color: rgb(179, 11, 115);} 
+ 75% {color: rgba(255, 72, 0, 0.788);} 
+100% {color: rgb(216, 213, 29);} 
+
+}
+#inc{
+  animation-name: inc;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-size: 100px;
+  background-color: rgba(0, 255, 13, 0.432);
+  
+  text-shadow: -1px -1px 0px rgb(255, 0, 0),
+    3px 3px 0px rgba(25, 0, 255, 0.788),
+    6px 6px 0px rgb(0, 247, 255);
+    
+}
+#foninc{
+  background-image: url("fon inc.jpg");
+  background-position: center;
+}
+#pregnue{
+  background-image: url("fon 9.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
