@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>TOPOLOGÍA DE RED</title>
+</head>
+<body bgcolor="#1DFD8D">
+<center><u><h1>TOPOLOGIA DE RED</h1></u></center>
+
+<font size="5">La forma en que se encuentran físicamente conectadas las
+PC a través del medio de transmisión conforma su topología. Puede ser
+en bus, anillo, estrella o jerárquica. Cada una de ellas tiene ventajas y
+desventajas sobre las otras.</font><br><br><br><br>
+
+<font size="5"><u>¿Qué topología se usará?</u> Se deberá
+tener en cuenta: complejidad, respuesta a fallas,
+alcance, expansión y velocidad de transmisión y
+tráfico.</font><br>
+<img src="pensando.png"><br><br>
+
+<center><u><h1>TOPOLOGIA DE BUS</h1></u></center>
+<font size="5">Todos los nodos y los periféricos, están conectados a un
+cable común llamado bus de red, que en sus extremos posee
+terminadores. La información pasa en ambos sentidos. Cada nodo se
+comunica en forma directa con
+cualquiera de los nodos conectados a
+la red. Es fácil agregar nodos, ya que
+se conectan directamente al bus, sin
+afectar al resto de la red. Si algún nodo
+de la red falla no incide en el
+funcionamiento de esta. Como
+contrapartida, es difícil el diagnóstico
+y detección de las fallas. Si el bus de la red no es el medio de
+transmisión adecuado, según la cantidad de información que circule por
+la red, podría verse saturado.</font><br><br>
+<img src="topobus.png" width="300" height="200"><br><br>
+
+<center><u><h1>TOPOLOGIA DE ANILLO</h1></u></center>
+<font size="5">Los nodos están conectados unos con otros a través del medio
+de transmisión formado por un anillo lo cual
+circula la información en un solo sentido.
+Cuando un nodo envía un mensaje a otro, este
+viaja a través de todos los nodos hasta llegar al
+destino. Requiere poco cableado. La falla de uno
+de sus nodos provoca que la red no funcione.En caso que sea necesario agregar un nodo, la red debe dejar
+de operar. La detección de fallas es difícil, porque se debe desconectar
+la red completa.</font><br><br>
+<img src="anillobus.png"><br><br>
+
+<center><u><h1>TOPOLOGIA DE ESTRELLA</h1></u></center>
+<font size="5">Aquí hay una computadora central o servidora (más potente
+que las demás) a la que se conectan todas las restantes. Todas las
+comunicaciones pasan por la servidora, por eso no hay colisiones. Cada
+nodo tiene un tramo exclusivo de cable. Pero la red es dependiente de
+la servidora, ya que si ésta tiene algún inconveniente deja de
+funcionar toda la red.</font><br><br>
+<img src="starbus.png"><br><br>
+
+</body>
+</html>

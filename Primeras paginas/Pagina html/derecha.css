@@ -1,0 +1,13 @@
+body{
+    background-color: #99e287;
+    background-image: url(https://huguidugui.files.wordpress.com/2015/03/html1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+#si{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+u{font-weight: bold;}
+font{font-size: 130%;}

@@ -1,0 +1,15 @@
+body {
+    color: black; 
+    background-color: black; 
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+a:visited{color: #f8f8b6;}
+font{
+    color: #f8f8b6;
+    font-family: 'Times New Roman'; 
+    font-weight: bold; 
+    font-size: 17px;
+}

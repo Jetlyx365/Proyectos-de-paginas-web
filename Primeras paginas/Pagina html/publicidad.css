@@ -1,0 +1,9 @@
+body{background-color:black;}
+marquee{
+    height:200px;
+    margin:10px;
+    color:white;
+    font-size: 40px;
+    font-family:fantasy;
+    word-spacing: 15px;
+  }
