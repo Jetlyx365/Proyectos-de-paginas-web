@@ -1,0 +1,100 @@
+body{background-color: #F09595;}
+h1{
+    text-align: center;
+    text-decoration:underline;
+}
+/*Volver*/
+#a{
+    padding-top: 350px;
+    text-align: center;
+}
+a {
+	box-shadow: 3px 3px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:42px;
+	border:2px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:19px;
+	padding:8px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+a:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+a:active {
+	position:relative;
+	top:1px;
+}
+/*Informacion*/
+.box{
+    width: 1000px;
+    height: 308px;
+    background: #97f15b;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 320px;
+    transition: opacity 500ms;
+     -webkit-transition: opacity 500ms; /* Safari */;
+    opacity:0;
+  }
+#button{
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+  }
+  .bt{
+    background:#9DD8C8;
+    font-family: Verdana;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    left: 50px;
+  }
+  #button:focus ~ .box{
+    opacity:1;
+  }
+  #button:focus ~ .bt{
+    display: block;
+  }
+#espacio{padding-top: 150px;}
+/*Botones*/
+button {
+        
+    color: #fff;
+    padding: 15px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 5px dashed #000;
+    color: #000;
+    background: transparent;
+    font-family: Verdana;
+  }
+  button:hover:after {
+    top: 0;
+    left: 0;
+  }
+  button:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    transition: 0.2s;
+    background-color: #FCF5B0;
+  }
+  font{font-size: 40px;}

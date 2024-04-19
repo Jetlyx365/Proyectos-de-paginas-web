@@ -1,0 +1,55 @@
+body{
+    background: rgba(255,132,232,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,132,232,1) 0%, rgba(224,186,215,1) 28%, rgba(126,44,203,1) 58%, rgba(97,208,149,1) 82%, rgba(97,208,149,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,132,232,1)), color-stop(28%, rgba(224,186,215,1)), color-stop(58%, rgba(126,44,203,1)), color-stop(82%, rgba(97,208,149,1)), color-stop(100%, rgba(97,208,149,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,132,232,1) 0%, rgba(224,186,215,1) 28%, rgba(126,44,203,1) 58%, rgba(97,208,149,1) 82%, rgba(97,208,149,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,132,232,1) 0%, rgba(224,186,215,1) 28%, rgba(126,44,203,1) 58%, rgba(97,208,149,1) 82%, rgba(97,208,149,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,132,232,1) 0%, rgba(224,186,215,1) 28%, rgba(126,44,203,1) 58%, rgba(97,208,149,1) 82%, rgba(97,208,149,1) 100%);
+    background: linear-gradient(135deg, rgba(255,132,232,1) 0%, rgba(224,186,215,1) 28%, rgba(126,44,203,1) 58%, rgba(97,208,149,1) 82%, rgba(97,208,149,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff84e8', endColorstr='#61d095', GradientType=1 );
+}
+font{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+/*Link*/
+div{ text-align: center;}
+a {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #2404d9;
+    color: #2404d9;
+  }
+  a:hover {
+    color: #fff;
+  }
+  a:hover:after {
+    height: 100%;
+  }
+  a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: #2404d9;
+  }
