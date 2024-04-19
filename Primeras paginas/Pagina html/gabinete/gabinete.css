@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+img{
+    float:left; 
+    width:350px;
+    height: 300px; 
+    position: relative;
+}
+#tex{
+    font-size: 20px;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    padding-top: 100px;
+}
+#titulo{
+    font-size: 40px;
+    background-color: #5465FF;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}

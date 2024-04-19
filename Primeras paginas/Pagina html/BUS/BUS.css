@@ -1,0 +1,22 @@
+body{background-color: #df7979b2;}
+font{font-size: 25px;}
+img{
+    float:left; 
+    width: 700px;
+    height: 300px;
+}
+#cubo{
+    padding-right: 10px;
+    padding-left: 50px;
+    width: 350px;
+    height: 220px;
+    border: 20px ridge rgb(96, 202, 206);
+    border-radius: 200px;
+    font-size: 20px;
+    text-align: left;
+}
+h2{font-size: 22px;}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
